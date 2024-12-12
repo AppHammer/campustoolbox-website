@@ -3,30 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My One Page Website</title>
+    <meta name="description" content="AI tools for the higher education market">
+    <title>CampusTools AI</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
         }
         header {
-            background-color: #4CAF50;
+            height: 100vh;
+            background: url('https://source.unsplash.com/1600x900/?education,technology') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             color: white;
-            padding: 1em 0;
+            text-align: center;
+            padding: 0 20px;
         }
-        main {
-            padding: 2em;
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #007BFF;
+        }
+        section p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 10px 20px;
+            border-top: 1px solid #ddd;
+        }
+        footer p {
+            font-size: 0.9rem;
+            color: #555;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My One Page Website</h1>
-    </header>
-    <main>
-        <p>This is a simple one-page website deployed using GitHub Pages and GitHub Actions.</p>
-    </main>
+
+<header>
+    <h1>CampusTools AI</h1>
+    <p>Empowering higher education with cutting-edge AI tools.</p>
+    <a href="#about" class="btn">Learn More</a>
+</header>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>At CampusTools AI, we develop innovative artificial intelligence tools designed to enhance learning, streamline administration, and optimize outcomes for educators and students alike.</p>
+</section>
+
+<section id="services">
+    <h2>Our Solutions</h2>
+    <p>Discover our AI-powered solutions tailored to meet the unique needs of higher education institutions.</p>
+    <a href="#contact" class="btn">Contact Us</a>
+</section>
+
+<footer>
+    <p>&copy; 2024 CampusTools AI. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
