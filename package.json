@@ -2,6 +2,6 @@
     "name": "one-page-website",
     "version": "1.0.0",
     "scripts": {
-      "build": "echo 'No build step needed' && mkdir -p public && cp -rpv ./src/ ./public/"
+      "build": "echo 'No build step needed' && mkdir -p public && cp -rpv ./src/* ./public/"
     }
   }
